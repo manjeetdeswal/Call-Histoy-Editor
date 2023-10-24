@@ -1,0 +1,110 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:key="main_preference_screen">
+
+    <PreferenceCategory android:title="Scheduled export"
+        android:key="scheduled_export_preference_category">
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="schedule_export"
+            android:title="Enable scheduled export" />
+
+        <com.thenotesgiver.callhistoryeditorandbackup.sms_ie.TimePickerPreference
+            android:key="export_time"
+            android:title="Export at:"
+            app:dependency="schedule_export" />
+
+        <Preference
+            android:key="export_dir"
+            android:title="Export to directory:"
+            app:dependency="schedule_export" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="delete_old_exports"
+            android:title="Delete old exports"
+            app:dependency="schedule_export" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="remove_datestamps_from_filenames"
+            android:title="Remove datestamps from filenames"
+            app:dependency="delete_old_exports"
+            app:singleLineTitle="false" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="export_messages"
+            android:title="Export messages"
+            app:dependency="schedule_export" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="export_calls"
+            android:title="Export calls"
+            app:dependency="schedule_export" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="export_contacts"
+            android:title="Export contacts"
+            app:dependency="schedule_export" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Export options">
+
+        <SwitchPreferenceCompat
+            android:key="include_binary_data"
+            android:title="@string/include_binary_data"
+            app:defaultValue="true"
+            app:singleLineTitle="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Import options">
+
+        <SwitchPreferenceCompat
+            android:key="message_deduplication"
+            android:title="Message deduplication (experimental)"
+            app:defaultValue="false"
+            app:singleLineTitle="false" />
+
+        <SwitchPreferenceCompat
+            android:key="import_sub_ids"
+            android:title="Include Subscription IDs in import"
+            app:defaultValue="false"
+            app:singleLineTitle="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Debugging options">
+
+        <SwitchPreferenceCompat
+            android:key="debugging"
+            android:title="Enable debugging options"
+            app:defaultValue="false" />
+
+        <EditTextPreference
+            android:key="max_records"
+            android:title="Maximum records (SMS messages, MMS messages, contacts, and calls) to import (messages only) or export. (Leave empty or set to 0 for all.)"
+            app:defaultValue=""
+            app:dependency="debugging"
+            app:useSimpleSummaryProvider="true" />
+
+        <SwitchPreferenceCompat
+            android:key="sms"
+            android:title="Process SMS messages"
+            app:defaultValue="true"
+            app:dependency="debugging" />
+
+        <SwitchPreferenceCompat
+            android:key="mms"
+            android:title="Process MMS messages"
+            app:defaultValue="true"
+            app:dependency="debugging" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

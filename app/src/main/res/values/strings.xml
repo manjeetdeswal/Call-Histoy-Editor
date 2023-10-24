@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Call History Editor</string>
+
+
+    <string name="export_messages_button_label">Export Messages</string>
+    <string name="import_messages_button_label">Import Messages</string>
+    <string name="export_call_log_button_label">Export Call Log</string>
+    <string name="import_call_log_button_label">Import Call Log</string>
+    <string name="ready">Ready</string>
+    <string name="call_log_export_progress">%1$d of %2$d call(s) exported</string>
+    <string name="call_log_import_progress">%1$d call(s) imported</string>
+    <string name="sms_export_progress">%1$d of %2$d SMS(s) exported</string>
+    <string name="mms_export_progress">%1$d of %2$d MMS(s) exported</string>
+    <string name="message_import_progress">%1$d SMS(s) and %2$d MMS(s) imported</string>
+    <string name="contacts_export_progress">%1$d of %2$d contact(s) exported</string>
+    <string name="contacts_import_progress">%1$d contact(s) imported</string>
+    <string name="export_messages_results">%1$d SMS(s) and %2$d MMS(s) exported\nElapsed time: %3$s</string>
+    <string name="import_messages_results">%1$d SMS(s) and %2$d MMS(s) imported\nElapsed time: %3$s</string>
+    <string name="export_call_log_results">%1$d call(s) exported\nElapsed time: %2$s</string>
+    <string name="import_call_log_results">%1$d call(s) imported\nElapsed time: %2$s</string>
+    <string name="export_contacts_results">%1$d contact(s) exported\nElapsed time: %2$s.</string>
+    <string name="import_contacts_results">%1$d contact(s) imported\nElapsed time: %2$s.</string>
+    <string name="sms_permissions_required">Exporting messages requires permission to read SMSs and contacts.</string>
+    <string name="default_sms_app_requirement">This app must be the default SMS app to import or wipe messages.</string>
+    <string name="call_logs_permissions_required">Exporting call logs requires permission to read Call Logs and Contacts.</string>
+    <string name="call_logs_read_write_permissions_required">Importing call logs requires permission to read and write call logs.</string>
+    <string name="contacts_read_permission_required">Exporting contacts requires permission to read Contacts.</string>
+    <string name="contacts_write_permissions_required">Importing contacts requires permission to write Contacts.</string>
+    <string name="not_jsonarray_message">The file does not seem to contain a valid JSONArray.</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="settings">Settings</string>
+    <string name="include_binary_data">Include binary MMS data</string>
+    <string name="channel_name">notification_channel</string>
+    <string name="channel_description">Notification Channel</string>
+    <string name="scheduled_export_executed">Scheduled export executed</string>
+    <string name="scheduled_export_success">%1$d SMS(s), %2$d MMS(s), %3$d calls, and %4$d contacts exported.</string>
+    <string name="scheduled_export_failure">Export unsuccessful — see logcat for more details.</string>
+    <string name="wipe_messages">Call History Manager</string>
+    <string name="dialog_confirm_wipe">Warning: Wipe all messages from this device permanently, without being able to undo it\?</string>
+    <string name="wipe">Wipe</string>
+    <string name="cancel">Cancel</string>
+    <string name="wipe_cancelled">Wipe cancelled</string>
+    <string name="messages_wiped">Messages wiped</string>
+    <string name="call_duration">Call Duration H:M:S</string>
+    <string name="call_type">Call Type</string>
+    <string name="seconds">Seconds</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_from_contacts">Select from contacts</string>
+    <string name="select_time">Select Time</string>
+    <string name="sim_1">SIM 1</string>
+    <string name="sim_2">SIM 2</string>
+    <string name="wiping_sms_messages">Wiping SMS messages …</string>
+    <string name="wiping_mms_messages">Wiping MMS messages …</string>
+    <string name="app_about_text">SMS Import / Export
+\n
+\nby Thomas More and other contributors
+\n
+\nVersion %1$s
+\n
+\nCopyright © 2021–2023
+\n
+\nReleased under the GNU GPLv3</string>
+    <string name="homepage">Homepage:</string>
+    <string name="app_homepage">https://github.com/tmo1/sms-ie</string>
+    <string name="documentation">Documentation:</string>
+    <string name="app_documentation">https://github.com/tmo1/sms-ie#readme</string>
+    <string name="issue_tracker">Issue tracker:</string>
+    <string name="app_issue_tracker">https://github.com/tmo1/sms-ie/issues</string>
+    <string name="about">About</string>
+    <string name="export_contacts">Export Contacts</string>
+    <string name="import_contacts">Import Contacts</string>
+    <string name="copying_mms_binary_data">Copying MMS binary data ...</string>
+    <string name="importing_messages">Importing messages ...</string>
+    <string name="become_default_sms_app_warning">SMS Import / Export must be the default SMS app in order to import or wipe messages. Please read the README and make sure you understand the implications of doing this before proceeding.</string>
+    <string name="okay">OK</string>
+    <string name="default_sms_app_dialog_title">Default SMS App</string>
+    <string name="message_import_api_23_requirement">Importing messages is only possible on Android Marshmallow / 6.0 (API level 23) or later.</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="incoming">Incoming</string>
+    <string name="missed">Missed</string>
+    <string name="rejected">Rejected</string>
+    <string name="hours">Hours</string>
+    <string name="outgoing">Outgoing</string>
+    <string name="minutes">Minutes</string>
+    <string name="add_to_call_log">Add to Call History</string>
+    <string name="or">Or</string>
+    <string name="add_record_paragraph">Add record to Call History</string>
+    <string name="full_name">Full Name</string>
+    <string name="intMain">ca-app-pub-7993956656856547/3421306074</string>
+    <string name="bannerEmail">ca-app-pub-7993956656856547/5021344116</string>
+</resources>
