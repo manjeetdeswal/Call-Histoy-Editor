@@ -10,15 +10,15 @@ Call History Editor is an Android application that allows you to manage, edit, b
 ## Screenshots
 
 <p align="center">
-  <img src="https://github.com/manjeetdeswal/Call-Histoy-Editor/blob/master/app/release/Screenshot_20250115-124746.png" width="30%" />
-  <img src="https://github.com/manjeetdeswal/Call-Histoy-Editor/blob/master/app/release/Screenshot_20250115-124755.png" width="30%" />
-  <img src="https://github.com/manjeetdeswal/Call-Histoy-Editor/blob/master/app/release/Screenshot_20250115-124804.png" width="30%" />
+  <img src="https://github.com/manjeetdeswal/Call-Histoy-Editor/blob/new/ss/Screenshot_20260613-113457.png" width="30%" />
+  <img src="https://github.com/manjeetdeswal/Call-Histoy-Editor/blob/new/ss/Screenshot_20260613-113616.png" width="30%" />
+
 </p>
 
 <p align="center">
-  <img src="https://github.com/manjeetdeswal/Call-Histoy-Editor/blob/master/app/release/Screenshot_20250115-125114.png" width="30%" />
-  <img src="https://github.com/manjeetdeswal/Call-Histoy-Editor/blob/master/app/release/Screenshot_20250115-125121.png" width="30%" />
-  <img src="https://github.com/manjeetdeswal/Call-Histoy-Editor/blob/master/app/release/Screenshot_20250115-125129.png" width="30%" />
+   <img src="https://github.com/manjeetdeswal/Call-Histoy-Editor/blob/new/ss/Screenshot_20260613-113626.png" width="30%" />
+  <img src="https://github.com/manjeetdeswal/Call-Histoy-Editor/blob/new/ss/Screenshot_20260613-114008.png" width="30%" />
+  
 </p>
 
 ## Features
