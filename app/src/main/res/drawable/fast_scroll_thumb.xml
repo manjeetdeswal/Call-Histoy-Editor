@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Color when you grab and press it -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="?attr/colorPrimary"/>
+            <!-- Massive radius ensures it stays perfectly round on the edges even when short -->
+            <corners android:radius="50dp"/>
+            <size android:width="24dp"/>
+        </shape>
+    </item>
+
+    <!-- Normal idle color -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="?attr/colorOutline"/>
+            <corners android:radius="50dp"/>
+            <size android:width="24dp"/>
+        </shape>
+    </item>
+</selector>
